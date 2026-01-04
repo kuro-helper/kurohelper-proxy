@@ -44,7 +44,7 @@ func getProxyIP(apiURL, apiKey string) (string, error) {
 		return "", fmt.Errorf("%w: %v", ErrCreateRequestFailed, err)
 	}
 
-	req.Header.Set("X-Allow-Key", apiKey)
+	req.Header.Set("X-Allowed-Key", apiKey)
 
 	resp, err := client.Do(req)
 	if err != nil {
