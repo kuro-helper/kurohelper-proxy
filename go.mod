@@ -1,4 +1,4 @@
-module github.com/kuro-helper/proxy
+module github.com/kuro-helper/kurohelper-proxy
 
 go 1.24.0
 

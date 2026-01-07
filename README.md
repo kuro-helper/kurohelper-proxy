@@ -1,3 +1,3 @@
-# proxy
+# kurohelper-proxy
 
-KuroHelper的Proxy配置
+KuroHelper 的 Proxy 配置
