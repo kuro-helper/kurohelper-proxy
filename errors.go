@@ -1,8 +1,8 @@
-package proxy
+package kurohelperproxy
 
 import "errors"
 
 var (
 	// ErrCreateSOCKS5DialerFailed 建立 SOCKS5 Dialer 失敗
-	ErrCreateSOCKS5DialerFailed = errors.New("proxy: failed to create SOCKS5 dialer")
+	ErrCreateSOCKS5DialerFailed = errors.New("kurohelperproxy: failed to create SOCKS5 dialer")
 )
