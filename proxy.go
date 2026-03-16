@@ -2,10 +2,10 @@ package kurohelperproxy
 
 import (
 	"fmt"
+	"log/slog"
 	"net"
 	"time"
 
-	"github.com/sirupsen/logrus"
 	"golang.org/x/net/proxy"
 )
 
@@ -33,7 +33,7 @@ func GetProxyDialer(proxyAddr string, proxyAuth *proxy.Auth, proxyPort string) (
 			dialer = nil
 			return nil, fmt.Errorf("%w: %v", ErrCreateSOCKS5DialerFailed, err)
 		}
-		logrus.Debugf("%s Proxy已成功設置", proxyAddr)
+		slog.Debug(fmt.Sprintf("%s Proxy已成功設置", proxyAddr))
 	}
 	return dialer, nil
 }
