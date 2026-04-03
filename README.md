@@ -1,5 +1,8 @@
 # kurohelper-proxy
 
+> [!IMPORTANT]
+> 專案已整合(2026/04/03)，請閱讀新專案: [https://github.com/kuro-helper/kurohelper-service](https://github.com/kuro-helper/kurohelper-service)
+
 KuroHelper 的 Proxy 配置
 
 > [!IMPORTANT]
